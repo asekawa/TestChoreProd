@@ -14,8 +14,7 @@ dependencies = [
 	{org = "ballerina", name = "http"},
 	{org = "ballerina", name = "log"},
 	{org = "ballerinai", name = "observe"},
-	{org = "ballerinax", name = "trigger.asgardeo"},
-	{org = "wso2", name = "choreo.sendsms"}
+	{org = "ballerinax", name = "trigger.asgardeo"}
 ]
 modules = [
 	{org = "asagrdeotestvs3rdparty", packageName = "greeter", moduleName = "greeter"}
@@ -353,19 +352,6 @@ dependencies = [
 ]
 modules = [
 	{org = "ballerinax", packageName = "trigger.asgardeo", moduleName = "trigger.asgardeo"}
-]
-
-[[package]]
-org = "wso2"
-name = "choreo.sendsms"
-version = "0.6.1"
-dependencies = [
-	{org = "ballerina", name = "http"},
-	{org = "ballerina", name = "log"},
-	{org = "ballerinai", name = "observe"}
-]
-modules = [
-	{org = "wso2", packageName = "choreo.sendsms", moduleName = "choreo.sendsms"}
 ]
 
 
